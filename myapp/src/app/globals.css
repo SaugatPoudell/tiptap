@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+background-color: aquamarine;
+color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+   background-color: wheat;
+   color: blanchedalmond;
+  }
+}
+
+body {
+  color:black;
+  background: white;
+
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.ProseMirror
+{
+  height: 400px;
+  width:200%;
+  background-color:aqua
+}
+.ProseMirror ul
+{
+  margin-left: 20px;
+  list-style:disc
+}
+.ProseMirror ol
+{
+  margin-left: 20px;
+  list-style:decimal;
+}
+.ProseMirror h1
+{
+    font-size: 2em;
+    font-weight: bold;
+}
+/* .PromseMirror h2{
+  
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  color: red;
+  font-weight: bold;
+} */
+.ProseMirror h3
+{
+
+    font-size: 1.17em;
+    font-weight: bold;
+}
+button
+{
+  border: none;
+  border: 1px solid black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: black;
+  color: aliceblue;
+  font-size: 16px;
+}
+button:active
+{
+  background-color: black;
+  color: aliceblue;
+}
+.ProseMirror h2
+{
+  font-size: 1.5em;
+  font-weight: bold;
+}
